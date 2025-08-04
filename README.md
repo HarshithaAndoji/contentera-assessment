@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+# 📘 ContenTerra React Developer Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed as part of the **Frontend Developer Assessment** for ContenTerra Software Private Limited.
 
-## Available Scripts
+## 🚀 Project Description
 
-In the project directory, you can run:
+The goal of this assessment was to build a React-based frontend application with modern UI/UX practices and deploy it using Firebase Hosting. The application demonstrates skills in React.js, component architecture, routing, state management, and deployment.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔧 Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Frontend:** React.js (with functional components & hooks)
+* **Styling:** CSS3, HTML5
+* **Package Manager:** npm
+* **Hosting:** Firebase Hosting
+* **Version Control:** Git & GitHub
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📌 Features Implemented
 
-### `npm run build`
+* Responsive UI design
+* Navigation bar with sections like `Services`, `Work`, `About`, `Careers`
+* React Router integration (if applicable)
+* Placeholder or actual pages for content
+* Reusable React components
+* Mobile-friendly design
+* Deployed on Firebase
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧱 Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+contentera-assessment/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── firebase.json
+├── README.md
+├── package.json
+└── ...
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ Setup Instructions (Development)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone git@github.com:HarshithaAndoji/contentera-assessment.git
+cd contentera-assessment
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Install dependencies**
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Start the app locally**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+The application will run at: `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🚀 Deployment Instructions (Firebase)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. **Install Firebase CLI**
 
-### Making a Progressive Web App
+```bash
+npm install -g firebase-tools
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. **Login to Firebase**
 
-### Advanced Configuration
+```bash
+firebase login
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. **Initialize Firebase in your project**
 
-### Deployment
+```bash
+firebase init
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+During this:
 
-### `npm run build` fails to minify
+* Select `Hosting`
+* Choose an existing Firebase project or create a new one
+* Set `build` folder as the public directory
+* Configure as a single-page app (`yes`)
+* Skip overwrite on `index.html` if asked
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. **Build your React project**
+
+```bash
+npm run build
+```
+
+5. **Deploy to Firebase**
+
+```bash
+firebase deploy
+```
+
+---
+
+## 🌐 Live Demo
+
+🔗 [https://contenterra-assessment.web.app](https://contenterra-assessment.web.app)
+
+---
+
+## 📄 License
+
+This project is developed as part of an assessment and is not licensed for commercial use.
+
+---
+
+## 📧 Contact
+
+**Harshitha Andoji**
+📧 [andojiharshitha194@gmail.com](mailto:andojiharshitha194@gmail.com)
+📞 +91 91213 25626
+🔗 [LinkedIn Profile](https://linkedin.com/in/harshitha-andoji)
